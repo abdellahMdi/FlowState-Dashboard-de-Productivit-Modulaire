@@ -6,7 +6,9 @@ let cardhome = document.getElementById("cardhome");
 let cardtimer = document.getElementById("cardtimer");
 let back = document.getElementById("goBack");
 let newTask = document.getElementById("addnewtask");
-let modal = document.getElementById('modal')
+let modal = document.getElementById('modal');
+
+
 homebtn.addEventListener("click",() => {
     cardhome.style = "";
     cardtimer.style = "display : none;";
