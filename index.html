@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
         <title>Document</title>
+        <link rel="stylesheet" href="style.css">
         <link
             href="
 https://cdn.jsdelivr.net/npm/remixicon@4.9.1/fonts/remixicon.min.css
@@ -19,31 +20,105 @@ https://cdn.jsdelivr.net/npm/remixicon@4.9.1/fonts/remixicon.min.css
                 <span class="text-3xl"><i class="ri-search-line"></i></span>
             </div>
             <div class="flex justify-around w-full h-49 pt-4" >
-                <div class="w-[45%] h-full rounded-3xl  border-3"></div>
-                <div class="w-[45%] h-full rounded-3xl border-3"></div>
+                <button class="flex flex-col items-center justify-center w-[45%] h-full rounded-3xl border-3">
+                     <h2 class="text-2xl">total tasks done</h2>
+                     <br>
+                     <p class="text-4xl">00</p>
+                </button>
+                <button class="flex flex-col items-center justify-center w-[45%] h-full rounded-3xl border-3">
+                     <h2 class="text-2xl">Add new task</h2>
+                     <div class="text-6xl"><i class="ri-add-circle-line"></i></div>
+                </button>
             </div>
             <div class="flex justify-center items-center w-full h-15">
                 <h2 class="text-3xl">My tasks</h2>
             </div>
             <hr>
-            <div class=" relative w-full h-90 overflow-hidden">
-                <div class=" flex flex-col border-3 w-full h-90 overflow-x-scroll py-3 px-1">
-                    <div class="flex w-full h-22 rounded-3xl border-3">
-                        <div class="flex justify-center items-center text-4xl w-15 h-full border-1">
+            <div class=" relative flex flex-wrap  w-full h-109 overflow-y-scroll">
+                <div class=" flex flex-col flex-wrap border-3 w-full h-1000 overflow-y-hidden py-3 px-1">
+                    <div class="flex w-full h-22 rounded-3xl border-3 mb-2">
+                        <div class="flex justify-center items-center text-4xl w-[15%] h-full border-1">
                             <i class="ri-play-large-fill"></i>
                         </div>
-                        <div class="flex justify-center items-center h-full w-50 border-1"></div>
-                        <div class="flex justify-center items-center h-full w-15 border-1">
+                        <div class=" relative flex justify-center items-center h-full w-[58%] border-1 overflow-hidden">
+                            <div class="flex items-center h-[100%] w-100">
+                                  <h3 class=" text-2xl ">card name or task</h3>
+                            </div>
+                              
+                        </div>
+                        <div class="flex justify-center items-center h-full w-[14%] border-1">
                             <div class="flex justify-center rounded-3xl border-1 h-8 w-8">
                                  <h3 class="text-2xl">5</h3>
                             </div>
                         </div>
-                        <div class="flex justify-center items-center h-full w-15 border-1 text-4xl">
+                        <div class="flex justify-center items-center h-full w-[14%] border-1 text-4xl">
+                            <i class="ri-more-2-fill"></i>
+                        </div>
+                    </div>
+                    <div class="flex w-full h-22 rounded-3xl border-3 mb-2">
+                        <div class="flex justify-center items-center text-4xl w-[15%] h-full border-1">
+                            <i class="ri-play-large-fill"></i>
+                        </div>
+                        <div class=" relative flex justify-center items-center h-full w-[58%] border-1 overflow-hidden">
+                            <div class="flex items-center h-[100%] w-100">
+                                  <h3 class=" text-2xl ">card name or task</h3>
+                            </div>
+                              
+                        </div>
+                        <div class="flex justify-center items-center h-full w-[14%] border-1">
+                            <div class="flex justify-center rounded-3xl border-1 h-8 w-8">
+                                 <h3 class="text-2xl">5</h3>
+                            </div>
+                        </div>
+                        <div class="flex justify-center items-center h-full w-[14%] border-1 text-4xl">
+                            <i class="ri-more-2-fill"></i>
+                        </div>
+                    </div>
+                    <div class="flex w-full h-22 rounded-3xl border-3 mb-2">
+                        <div class="flex justify-center items-center text-4xl w-[15%] h-full border-1">
+                            <i class="ri-play-large-fill"></i>
+                        </div>
+                        <div class=" relative flex justify-center items-center h-full w-[58%] border-1 overflow-hidden">
+                            <div class="flex items-center h-[100%] w-100">
+                                  <h3 class=" text-2xl ">card name or task</h3>
+                            </div>
+                              
+                        </div>
+                        <div class="flex justify-center items-center h-full w-[14%] border-1">
+                            <div class="flex justify-center rounded-3xl border-1 h-8 w-8">
+                                 <h3 class="text-2xl">5</h3>
+                            </div>
+                        </div>
+                        <div class="flex justify-center items-center h-full w-[14%] border-1 text-4xl">
+                            <i class="ri-more-2-fill"></i>
+                        </div>
+                    </div>
+                    <div class="flex w-full h-22 rounded-3xl border-3 mb-2">
+                        <div class="flex justify-center items-center text-4xl w-[15%] h-full border-1">
+                            <i class="ri-play-large-fill"></i>
+                        </div>
+                        <div class=" relative flex justify-center items-center h-full w-[58%] border-1 overflow-hidden">
+                            <div class="flex items-center h-[100%] w-100">
+                                  <h3 class=" text-2xl ">card name or task</h3>
+                            </div>
+                              
+                        </div>
+                        <div class="flex justify-center items-center h-full w-[14%] border-1">
+                            <div class="flex justify-center rounded-3xl border-1 h-8 w-8">
+                                 <h3 class="text-2xl">5</h3>
+                            </div>
+                        </div>
+                        <div class="flex justify-center items-center h-full w-[14%] border-1 text-4xl">
                             <i class="ri-more-2-fill"></i>
                         </div>
                     </div>
                 </div>
+                
             </div>
+        </div>
+        <div class="fixed flex items-center justify-around bottom-0 border-2 w-full h-20 rounded-3xl z-10 bg-[#dddddd]">
+            <div class="flex justify-center items-center text-3xl w-25 h-13 rounded-full border-2"> <i class="ri-home-2-line"></i></div>
+            <div class="flex justify-center items-center text-3xl w-25 h-13 rounded-full border-2"> <i class="ri-timer-line"></i></div>
         </div>
     </body>
 </html>
