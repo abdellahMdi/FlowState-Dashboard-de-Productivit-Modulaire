@@ -14,8 +14,8 @@ https://cdn.jsdelivr.net/npm/remixicon@4.9.1/fonts/remixicon.min.css
         />
     </head>
     <body>
-        <div class="">
-            <div class="flex justify-between px-4 pt-4 ">
+        <div id="cardhome" class="flex flex-col items-center ">
+            <div class="flex justify-between px-4 pt-4 w-full ">
                 <span class="text-3xl"><i class="ri-menu-line"></i></span>
                 <span class="text-3xl"><i class="ri-search-line"></i></span>
             </div>
@@ -117,8 +117,29 @@ https://cdn.jsdelivr.net/npm/remixicon@4.9.1/fonts/remixicon.min.css
             </div>
         </div>
         <div class="fixed flex items-center justify-around bottom-0 border-2 w-full h-20 rounded-3xl z-10 bg-[#dddddd]">
-            <button class="flex justify-center items-center text-3xl w-25 h-13 rounded-full border-2"> <i class="ri-home-2-line"></i></button>
-            <button class="flex justify-center items-center text-3xl w-25 h-13 rounded-full border-2"> <i class="ri-timer-line"></i></button>
+            <button id="home" class="flex justify-center items-center text-3xl w-25 h-13 rounded-full border-2"> <i class="ri-home-2-line"></i></button>
+            <button id="timer" class="flex justify-center items-center text-3xl w-25 h-13 rounded-full border-2"> <i class="ri-timer-line"></i></button>
         </div>
+        <div id="cardtimer" class="flex flex-col items-center">
+            <div class="flex w-full border-2 h-15 text-6xl">
+                <i class="ri-arrow-left-circle-line"></i>
+            </div>
+            <div class="flex items-center justify-center w-full border-2 h-30">
+                <h2 class="text-4xl">task name</h2>
+            </div>
+            <div class="flex items-center justify-center w-full border-2 h-76">
+                <div class="flex items-center justify-center border-2 w-75 h-75 rounded-full">
+                    <div class="flex items-center justify-center border-2 w-65 h-65 rounded-full">
+                        <p class="text-7xl">00:00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex items-center justify-center w-full border-2 h-23">
+                <div class="flex items-center justify-center border-2 w-[24%] h-full text-5xl"><i class="ri-forward-15-line"></i></div>
+                <div class="flex items-center justify-center border-2 w-[24%] h-full text-8xl"><i class="ri-pause-circle-fill"></i></div>
+                <div class="flex items-center justify-center border-2 w-[24%] h-full text-5xl"><i class="ri-loop-right-line"></i></div>
+            </div>
+        </div>
+        <script src="ui.js"></script>
     </body>
 </html>
